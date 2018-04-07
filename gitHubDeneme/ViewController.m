@@ -25,9 +25,6 @@
     label2.backgroundColor=[UIColor blueColor];
     [self.view addSubview:label2];
     
-    UILabel *label3 = [[UILabel alloc] initWithFrame:CGRectMake(40, 400, 200, 40)];
-    label3.backgroundColor=[UIColor redColor];
-    [self.view addSubview:label3];
 }
 
 - (void)didReceiveMemoryWarning {
