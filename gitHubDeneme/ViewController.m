@@ -29,6 +29,10 @@
     squareLabel.backgroundColor=[UIColor orangeColor];
     [self.view addSubview:squareLabel];
     
+    UILabel *squareLabel2 = [[UILabel alloc] initWithFrame:CGRectMake(40, 400, 100, 100)];
+    squareLabel2.backgroundColor=[UIColor orangeColor];
+    [self.view addSubview:squareLabel2];
+    
 }
 
 - (void)didReceiveMemoryWarning {
